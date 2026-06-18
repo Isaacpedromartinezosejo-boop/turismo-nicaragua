@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Descubre Nicaragua</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styleindex.css">
+</head>
+<body>
+    <a href="#" class="btn btn-success arriba">
+⬆️
+</a>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+<div class="container">
+<a class="navbar-brand fw-bold" href="index.html">
+🇳🇮 Descubre Nicaragua
+</a>
+<button class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="menu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item">
+<a class="nav-link active" href="index.html">
+
+Inicio
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="masaya.html">
+
+Masaya
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="granada.html">
+
+Granada
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="riosanjuan.html">
+
+Río San Juan
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="galeria.html">
+
+Galería
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="acerca.html">
+
+Acerca de
+</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<header class="hero">
+<div class="container text-center">
+<h1>
+
+ Descubre la magia de Nicaragua 
+</h1>
+<p class="lead">
+Conoce la historia, cultura y naturaleza de Masaya, Granada y Río San Juan.
+</p>
+<a href="masaya.html"
+class="btn btn-warning btn-lg">
+
+Comenzar recorrido
+</a>
+</div>
+</header>
+<section class="container py-5">
+<h2 class="text-center mb-5">
+
+🌎 Destinos turísticos
+</h2>
+<div class="row g-4">
+<div class="col-md-4">
+<div class="card h-100 shadow text-center">
+<div class="card-body">
+
+<h3>🌋 Masaya</h3>
+<p>
+Volcanes, artesanías y tradiciones.
+</p>
+<a href="masaya.html"
+class="btn btn-success">
+Explorar
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card h-100 shadow text-center">
+<div class="card-body">
+
+<h3>🏛️ Granada</h3>
+<p>
+Historia, arquitectura y cultura colonial.
+</p>
+<a href="granada.html"
+class="btn btn-success">
+Explorar
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card h-100 shadow text-center">
+<div class="card-body">
+
+<h3>🌊 Río San Juan</h3>
+<p>
+Naturaleza, aventura y biodiversidad.
+</p>
+<a href="riosanjuan.html"
+class="btn btn-success">
+Explorar
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-light py-5">
+<div class="container text-center">
+<h2>
+
+ ¿Sabías que...?
+</h2>
+<div class="row mt-4">
+<div class="col-md-4">
+<h4>🌋 Masaya</h4>
+<p>
+El Volcán Masaya es uno de los volcanes activos más accesibles del mundo.
+</p>
+</div>
+<div class="col-md-4">
+<h4>🏛️ Granada</h4>
+<p>
+Granada es una de las ciudades más antiguas de América.
+</p>
+</div>
+<div class="col-md-4">
+<h4>🌊 Río San Juan</h4>
+<p>
+Conecta el lago Cocibolca con el mar Caribe.
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class="container py-5 text-center">
+<h2>
+ Nicaragua, un país lleno de tesoros por descubrir
+</h2>
+<p>
+Cada rincón de Nicaragua ofrece experiencias únicas que muestran la riqueza cultural, histórica y natural del país.
+</p>
+<section class="container text-center py-4">
+<h4> Fecha y hora actual</h4>
+<p id="fecha"></p>
+<script>
+function mostrarFecha(){
+const hoy = new Date();
+document.getElementById("fecha").innerHTML = hoy.toLocaleString();
+}
+mostrarFecha();
+</script>
+
+</section>
+</section>
+<footer class="bg-success text-white text-center p-4">
+<p>
+© 2026 Descubre Nicaragua
+</p>
+<p>
+Website creada para promover el turismo nacional.
+</p>
+</footer>
+</script> src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
